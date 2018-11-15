@@ -1,11 +1,11 @@
 def using_push(array, string)
-  array = array.push(string)
+  array.push(string)
 end 
 def using_unshift(array, string)
-  array = array.unshift(string)
+  array.unshift(string)
 end 
 def using_pop(array)
-  array = array.pop 
+  array.pop 
 end 
 def pop_with_args(array)
   array = array.pop(2)
@@ -20,4 +20,4 @@ def using_concat(array1, array2)
   array1.concat(array2)
 end 
 def using_insert(array, element)
-  
+  array.
